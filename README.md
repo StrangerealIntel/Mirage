@@ -3,7 +3,7 @@
 #### Matrix ATT&amp;CK for Kubernetes from Microsoft
 
 ### Objectives
-#### The goal of the repository is to create a JSON structure of the ATT&amp;CK for Kubernetes from Microsoft that can be used for integrate to a web panel of a wiki or an render like MITRE ATT&amp;CK Navigator for sharing propose.
+#### The goal of the repository is to create a JSON structure of the ATT&amp;CK for Kubernetes from Microsoft that can be used for integrate to a web panel of a wiki or a render like MITRE ATT&amp;CK Navigator for sharing propose.
 
 ### Concept
 #### Get and convert to JSON
@@ -11,7 +11,7 @@
 ```csharp
 > $j = (Get-Content -Path '.\ATT&CK_Kubernetes_V1.0.json')| ConvertFrom-Json
 ```
-#### The structure of the header content the description, the versioning, the reference and the matrice to the framework
+#### The structure of the header contents the description, the versioning, the reference and the matrice to the framework.
 
 ```csharp
 > $j |Format-List  
